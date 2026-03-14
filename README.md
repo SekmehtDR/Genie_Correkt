@@ -2,7 +2,7 @@
 
 Correkt is a Genie plugin that uses AI to help DragonRealms players write confident, immersive roleplay — regardless of their writing ability.
 
-![Correkt](.github/images/correkt-ui.png)
+![Correkt](images/correkt-ui.png)
 
 *(The name is a blend of "Correct" and "Wrecked" — because sometimes your text is both at the same time.)*
 
