@@ -27,7 +27,7 @@ It does not generate lore, invent actions, or play the game for you. It rewrites
 
 ## Requirements
 
-- [Genie Client](https://github.com/GenieClient/Genie4/tree/f41a5a89728719fef3b4a0896241c840aef80989)
+- [Genie Client](https://github.com/GenieClient/Genie4)
 - An [OpenAI API key](https://platform.openai.com/api-keys)
 - .NET Framework 4.8
 
