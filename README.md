@@ -1,6 +1,6 @@
 # Correkt — RP Text Assistant for DragonRealms
 
-Correkt is a Genie plugin that uses AI to help DragonRealms players write confident, immersive roleplay — regardless of their writing ability.
+Correkt is a Genie plugin that uses AI (OpenAI LLM) to help DragonRealms players write confident, immersive roleplay — regardless of their writing ability.
 
 ![Correkt](correkt-ui.png)
 
