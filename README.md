@@ -21,7 +21,7 @@ It does not generate lore, invent actions, or play the game for you. It rewrites
 - **Rewrites your text** to be immersive and in-character for the setting.
 - **Corrects spelling and grammar** without rephrasing or changing your meaning or original text
 - **Supports custom tones/style/persona options** — Feeling sarcastic, Sassy? All while being a chaotic evil necromancer? You can be
-- **Chant and sing modes** that format output as verse lines for in-game use
+- **Chant and sing and other modes** let you easy use conversation text in other places
 - **Inline directives** — use `[square brackets]` in your text to let the AI fill in a gap on the fly
 - **Profile system** — save your preferred settings per character or situation
 - **Send directly to the game** — say, whisper, yell, chant, sing, or copy to clipboard
