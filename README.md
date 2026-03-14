@@ -6,7 +6,9 @@ Correkt is a Genie plugin that uses AI to help DragonRealms players write confid
 
 DragonRealms is a living world built almost entirely on written communication. How you speak as your character shapes how others experience you, and for many players that pressure is real. Dyslexia, language barriers, anxiety, or simply not having grown up reading fantasy fiction can make roleplay feel intimidating — not because someone lacks imagination or creativity, but because the words don't come easily.
 
-Correkt removes that barrier. It takes what you *mean* to say and helps you say it in a way that feels natural in Elanthia, without changing your voice, your intent, or your character.
+Correkt is a community tool built to change that. It takes what you *mean* to say and helps you say it in a way that feels natural in Elanthia, without changing your voice, your intent, or your character. The goal is confidence and inclusion — keeping your roleplay flowing so you can focus on the story, the people around you, and the world you're all building together.
+
+It does not generate lore, invent actions, or play the game for you. It rewrites *your words*. A player who knows exactly what their character would say but struggles to write it down deserves to be at the table just as much as anyone else.
 
 ## What It Does
 
@@ -18,12 +20,6 @@ Correkt removes that barrier. It takes what you *mean* to say and helps you say 
 - **Inline directives** — use `[square brackets]` in your text to let the AI fill in a gap on the fly
 - **Profile system** — save your preferred settings per character or situation
 - **Send directly to the game** — say, whisper, yell, chant, sing, or copy to clipboard
-
-## Responsible AI
-
-Correkt is designed with a clear, narrow purpose: to help players participate fully in a text-based game. It does not generate lore, invent actions, or play the game for you. It rewrites *your words* — your thought, your intent — into language that fits the world.
-
-The goal is confidence and inclusion, not automation. A player who knows exactly what their character would say but struggles to write it down deserves to be at the table just as much as anyone else.
 
 ## Requirements
 
