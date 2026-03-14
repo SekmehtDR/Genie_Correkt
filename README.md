@@ -36,5 +36,5 @@ It does not generate lore, invent actions, or play the game for you. It rewrites
 
 1. Copy `Correkt.dll` to your Genie `Plugins` folder
 2. Launch Genie and load the plugin
-3. Click **⚙ Settings** and enter your OpenAI API key
-4. Start playing
+3. Click **⚙ Settings** and enter your OpenAI API key, Click save
+4. Get your wordsmithing on
