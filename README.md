@@ -23,7 +23,7 @@ It does not generate lore, invent actions, or play the game for you. It rewrites
 
 ## Requirements
 
-- [Genie MUD Client](http://www.play.net/forums/messages.asp?forum=117)
+- [Genie Client](https://github.com/GenieClient/Genie4/tree/f41a5a89728719fef3b4a0896241c840aef80989)
 - An [OpenAI API key](https://platform.openai.com/api-keys)
 - .NET Framework 4.8
 
