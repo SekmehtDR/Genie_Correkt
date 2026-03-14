@@ -17,8 +17,8 @@ It does not generate lore, invent actions, or play the game for you. It rewrites
 
 ## What It Does
 
-- **Rewrites your text** to be immersive and in-character for the setting
-- **Corrects spelling and grammar** without rephrasing or changing your meaning
+- **Rewrites your text** to be immersive and in-character for the setting.
+- **Corrects spelling and grammar** without rephrasing or changing your meaning or original text
 - **Supports multiple tones** — dramatic, humble, aggressive, playful, and more
 - **Chant and sing modes** that format output as verse lines for in-game use
 - **Inline directives** — use `[square brackets]` in your text to let the AI fill in a gap on the fly
