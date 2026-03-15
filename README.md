@@ -25,7 +25,7 @@ It does not generate lore, invent actions, or play the game for you. It rewrites
 - **Inline directives** — wrap `[instructions]` in square brackets anywhere in your text and the AI will generate content in that spot on the fly
 
 ### Send Options
-- **Say** — with optional target and emote fields (`say <emote> <target>,<text>`)
+- **Say** — with optional target and emote fields
 - **Whisper** — with target and visible toggle
 - **Yell** — with intensity selector (normal / loud / belt)
 - **Chant** — verse-style output, use `\;` to separate lines
@@ -61,10 +61,10 @@ It does not generate lore, invent actions, or play the game for you. It rewrites
 
 ## Installation
 
-1. Copy `Correkt.dll` to your Genie `Plugins` folder
+1. Copy `Correkt.dll` to your Genie `Plugins` folder (when available)
 2. Launch Genie and load the plugin
 3. Click **⚙ Settings** and enter your OpenAI API key
-4. Start playing
+4. Get your wordsmithing on
 
 ## Settings
 
