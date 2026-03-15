@@ -64,7 +64,8 @@ It does not generate lore, invent actions, or play the game for you. It rewrites
 1. Copy `Correkt.dll` to your Genie `Plugins` folder (when available)
 2. Launch Genie and load the plugin
 3. Click **⚙ Settings** and enter your OpenAI API key
-4. Get your wordsmithing on
+4. Type `/correkt` in the Genie command line, or select Correkt from the Plugin list to open the plugin window
+5. Get your wordsmithing on
 
 ## Settings
 
