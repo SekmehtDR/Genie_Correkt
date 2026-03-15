@@ -1,5 +1,4 @@
-# Correkt — RP Text Assistant for DragonRealms
-Coming soon~
+# Correkt — RP Text Assistant for DragonRealms ~ Coming Soon
 
 Correkt is a Genie plugin that uses AI (OpenAI LLM) to help DragonRealms players write confident, immersive roleplay — regardless of their writing ability.
 
@@ -18,13 +17,41 @@ It does not generate lore, invent actions, or play the game for you. It rewrites
 
 ## What It Does
 
-- **Rewrites your text** to be immersive and in-character for the setting.
-- **Corrects spelling and grammar** without rephrasing or changing your meaning or original text
-- **Supports custom tones/style/persona options** — Feeling sarcastic, Sassy? All while being a chaotic evil necromancer? You can be
-- **Chant, Sing and other modes** let you easy use conversation text in other places
-- **Inline directives** — use `[square brackets]` in your text to let the AI fill in a gap on the fly
-- **Profile system** — save your preferred settings per character or situation
-- **Send directly to the game** — say, whisper, yell, chant, sing, or copy to clipboard
+### Rewriting & Tone
+- **Smart default behavior** — with no voice selected, Correkt automatically corrects spelling and grammar only, leaving your text otherwise unchanged
+- **Character Voice grid** — choose from nine alignment-based voices (Lawful Good through Chaotic Evil) to shape the tone of your rewrite
+- **Custom Tone** — type any free-form tone, style, or persona to override the alignment grid
+- **Concise output** — rewrites stay close to the length of your original text, no purple prose
+- **Inline directives** — wrap `[instructions]` in square brackets anywhere in your text and the AI will generate content in that spot on the fly
+
+### Send Options
+- **Say** — with optional target and emote fields (`say <emote> <target>,<text>`)
+- **Whisper** — with target and visible toggle
+- **Yell** — with intensity selector (normal / loud / belt)
+- **Chant** — verse-style output, use `\;` to separate lines
+- **Sing** — with emote field, use `\;` to separate lines
+- **Think** — sends as `think <text>`
+- **Send** — sends a direct message to a specific player (`send <player> <text>`)
+- **Project** — sends as `project <text>`
+- **📋 Copy** — copies the rewritten text to clipboard without sending
+
+### Workflow
+- **✨ Rewrite** — sends your text to the AI and populates the Rewritten Text box for review
+- **⚡ Rewrite & Send** — rewrites and sends in one step, no review
+- **Send** — sends the rewritten text using the selected send option
+- **Reset All Fields** — clears input, output, and all selections
+
+### Profiles
+- Save your alignment, tone, custom tone, send mode, and theme per character or situation
+- Set a default profile that loads automatically on startup
+- New profile dialog pre-fills with your current Genie character name
+
+### UI
+- **Dark and light mode** — per-profile theme persistence
+- **Always on top** — keep the window above your Genie client
+- **Collapsible sections** — Character Voice and layout compact down when not needed
+- **Character counts** — live character counts on both Original Text and Rewritten Text fields
+- Type `/correkt` in the Genie command line to open the plugin window
 
 ## Requirements
 
@@ -36,5 +63,10 @@ It does not generate lore, invent actions, or play the game for you. It rewrites
 
 1. Copy `Correkt.dll` to your Genie `Plugins` folder
 2. Launch Genie and load the plugin
-3. Click **⚙ Settings** and enter your OpenAI API key, Click save
-4. Get your wordsmithing on
+3. Click **⚙ Settings** and enter your OpenAI API key
+4. Start playing
+
+## Settings
+
+- **OpenAI API Key** — your key is stored encoded on disk, not in plain text
+- **Model** — defaults to `gpt-3.5-turbo-1106`, change to any OpenAI model you have access to
