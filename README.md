@@ -1,5 +1,5 @@
 # Correkt — RP Text Assistant for DragonRealms 
-## Coming Soon
+~ Coming Soon
 
 Correkt is a Genie plugin that uses AI (OpenAI LLM) to help DragonRealms players write confident, immersive roleplay — regardless of their writing ability.
 
