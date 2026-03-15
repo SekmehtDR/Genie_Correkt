@@ -70,5 +70,5 @@ It does not generate lore, invent actions, or play the game for you. It rewrites
 
 ## Settings
 
-- **OpenAI API Key** — your key is stored encoded on disk, not in plain text
+- **OpenAI API Key** — after saving, your key is stored locally on disk
 - **Model** — defaults to `gpt-3.5-turbo-1106`, change to any OpenAI model you have access to
