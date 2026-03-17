@@ -4,6 +4,7 @@
 |---|---|
 | **Version** | v1.2b |
 | **Author** | Sekmeht Usho |
+| **Release** | Simusoon. |
 
 Correkt helps DragonRealms players write immersive, in-character roleplay using AI, so anyone can find their voice in Elanthia regardless of writing ability.
 
