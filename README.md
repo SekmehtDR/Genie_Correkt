@@ -1,5 +1,4 @@
 # Correkt — RP Text Assistant for DragonRealms ~ Coming Soon
-*~Coming Soon*
 
 Correkt is a Genie plugin that uses AI (OpenAI LLM) to help DragonRealms players write confident, immersive roleplay — regardless of their writing ability.
 
@@ -40,7 +39,22 @@ It does not generate lore, invent actions, or play the game for you. It rewrites
 - **✨ Rewrite** — sends your text to the AI and populates the Rewritten Text box for review
 - **⚡ Rewrite & Send** — rewrites and sends in one step, no review
 - **Send** — sends the rewritten text using the selected send option
-- **Reset All Fields** — clears input, output, and all selections
+- **↺ Reset** — clears input, output, and all selections
+- **💬 Conv. Mode** — toggles Conversation Mode; in this mode rewrites are sent immediately via `/correkt <text>` without opening the plugin window
+
+### Command Line
+Type commands directly in the Genie command line without opening the plugin window:
+
+| Command | Description |
+|---|---|
+| `/correkt` | Open the Correkt plugin window |
+| `/correkt <text>` | Rewrite and send `<text>` using your current profile settings |
+| `/correkt --reset` | Reset all fields to defaults |
+| `/correkt --sendas <mode>` | Change the Send As mode (say, whisper, yell, chant, sing, think, send, project) |
+| `/correkt --save` | Save current settings to the active profile |
+| `/correkt --help` | Show command reference in the game window |
+
+Status messages from command line operations are echoed to the game window so you always know what changed.
 
 ### Profiles
 - Save your alignment, tone, custom tone, send mode, and theme per character or situation
@@ -70,5 +84,5 @@ It does not generate lore, invent actions, or play the game for you. It rewrites
 
 ## Settings
 
-- **OpenAI API Key** — after saving, your key is stored locally on disk
+- **OpenAI API Key** — your key is stored encoded on disk, not in plain text
 - **Model** — defaults to `gpt-3.5-turbo-1106`, change to any OpenAI model you have access to
