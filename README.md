@@ -1,6 +1,7 @@
 # Correkt — RP Text Assistant for DragonRealms ~ Coming Soon
 
-| Current Information|
+Current Information:
+| | |
 |---|---|
 | **Version** | v1.2b |
 | **Author** | Sekmeht Usho |
