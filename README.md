@@ -8,8 +8,8 @@ Correkt helps DragonRealms players write immersive, in-character roleplay using 
 
 <kbd><a href="screenshots/correkt-ui1.png"><img src="screenshots/correkt-ui1.png" width="350"/></a></kbd>
 <kbd><a href="screenshots/correkt-ui2.png"><img src="screenshots/correkt-ui2.png" width="350"/></a></kbd>
-<kbd><a href="screenshots/correkt-ui3.png"><img src="screenshots/correkt-ui2.png" width="350"/></a></kbd>
-<kbd><a href="screenshots/correkt-ui4.png"><img src="screenshots/correkt-ui2.png" width="350"/></a></kbd>
+<kbd><a href="screenshots/correkt-ui3.png"><img src="screenshots/correkt-ui3.png" width="350"/></a></kbd>
+<kbd><a href="screenshots/correkt-ui4.png"><img src="screenshots/correkt-ui4.png" width="350"/></a></kbd>
 
 *(The name is a blend of "Correct" and "Wrecked" — because sometimes your text is both at the same time.)*
 
