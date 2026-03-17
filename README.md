@@ -1,5 +1,11 @@
 # Correkt — RP Text Assistant for DragonRealms ~ Coming Soon
 
+| | |
+|---|---|
+| **Version** | v1.2b |
+| **Author** | Sekmeht Usho |
+| **Description** | Correkt helps DragonRealms players write immersive, in-character roleplay using AI, so anyone can find their voice in Elanthia regardless of writing ability. |
+
 Correkt helps DragonRealms players write immersive, in-character roleplay using AI, so anyone can find their voice in Elanthia regardless of writing ability.
 
 <kbd><a href="screenshots/correkt-ui1.png"><img src="screenshots/correkt-ui1.png" width="350"/></a></kbd>
