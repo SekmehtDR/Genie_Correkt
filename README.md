@@ -33,7 +33,7 @@ Correkt is built to change that. It takes what you mean to say and helps you say
 - **Inline directives** — wrap `[instructions]` in square brackets and the AI fills that spot on the fly
 - **AI validation** — every rewrite is checked for meaning; bad or off-topic outputs are retried automatically
 
-### Send Options
+### Send as Options
 | Mode | Behavior |
 |---|---|
 | **Say** | Optional target and emote fields |
