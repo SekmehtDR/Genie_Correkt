@@ -1,6 +1,6 @@
 # Correkt — RP Text Assistant for DragonRealms ~ Coming Soon
 
-Correkt is a Genie plugin that uses AI (OpenAI LLM) to help DragonRealms players write confident, immersive roleplay — regardless of their writing ability.
+Correkt helps DragonRealms players write immersive, in-character roleplay using AI, so anyone can find their voice in Elanthia regardless of writing ability.
 
 <kbd><a href="screenshots/correkt-ui1.png"><img src="screenshots/correkt-ui1.png" width="350"/></a></kbd>
 <kbd><a href="screenshots/correkt-ui2.png"><img src="screenshots/correkt-ui2.png" width="350"/></a></kbd>
@@ -23,6 +23,7 @@ It does not generate lore, invent actions, or play the game for you. It rewrites
 - **Custom Tone** — type any free-form tone, style, or persona to override the alignment grid
 - **Concise output** — rewrites stay close to the length of your original text, no purple prose
 - **Inline directives** — wrap `[instructions]` in square brackets anywhere in your text and the AI will generate content in that spot on the fly
+- **AI validation** — every rewrite is checked for meaning before it reaches you; bad or off-topic outputs are automatically retried
 
 ### Send Options
 - **Say** — with optional target and emote fields
@@ -33,14 +34,15 @@ It does not generate lore, invent actions, or play the game for you. It rewrites
 - **Think** — sends as `think <text>`
 - **Send** — sends a direct message to a specific player (`send <player> <text>`)
 - **Project** — sends as `project <text>`
-- **📋 Copy** — copies the rewritten text to clipboard without sending
+- **Use #send** — per-mode toggle that queues the command through Genie's roundtime handler before sending
+- **Copy** — copies the rewritten text to clipboard without sending
 
 ### Workflow
-- **✨ Rewrite** — sends your text to the AI and populates the Rewritten Text box for review
-- **⚡ Rewrite & Send** — rewrites and sends in one step, no review
+- **Rewrite** — sends your text to the AI and populates the Rewritten Text box for review
+- **Rewrite & Send** — rewrites and sends in one step, no review
 - **Send** — sends the rewritten text using the selected send option
-- **↺ Reset** — clears input, output, and all selections
-- **💬 Conv. Mode** — toggles Conversation Mode; in this mode rewrites are sent immediately via `/correkt <text>` without opening the plugin window
+- **Reset** — clears input, output, and all selections back to defaults
+- **Conv. Mode** — toggles Conversation Mode; type your message and press Enter to rewrite and send immediately, one line at a time, without interrupting your game flow
 
 ### Command Line
 Type commands directly in the Genie command line without opening the plugin window:
@@ -57,16 +59,16 @@ Type commands directly in the Genie command line without opening the plugin wind
 Status messages from command line operations are echoed to the game window so you always know what changed.
 
 ### Profiles
-- Save your alignment, tone, custom tone, send mode, and theme per character or situation
+- Save your alignment, tone, custom tone, send mode, theme, and per-mode `#send` preferences per character or situation
 - Set a default profile that loads automatically on startup
 - New profile dialog pre-fills with your current Genie character name
 
 ### UI
 - **Dark and light mode** — per-profile theme persistence
 - **Always on top** — keep the window above your Genie client
-- **Collapsible sections** — Character Voice and layout compact down when not needed
+- **Collapsible sections** — Character Voice panel compacts down when not needed
 - **Character counts** — live character counts on both Original Text and Rewritten Text fields
-- Type `/correkt` in the Genie command line to open the plugin window
+- **Status bar** — live feedback including validation pass/fail and retry count after every rewrite
 
 ## Requirements
 
@@ -76,13 +78,14 @@ Status messages from command line operations are echoed to the game window so yo
 
 ## Installation
 
-1. Copy `Correkt.dll` to your Genie `Plugins` folder (when available)
+1. Copy `Correkt.dll` to your Genie `Plugins` folder
 2. Launch Genie and load the plugin
-3. Click **⚙ Settings** and enter your OpenAI API key and model details
+3. Click **Settings** and enter your OpenAI API key
 4. Type `/correkt` in the Genie command line, or select Correkt from the Plugin list to open the plugin window
 5. Get your wordsmithing on
 
 ## Settings
 
-- **OpenAI API Key** — your key is stored encoded on disk, not in plain text
-- **Model** — defaults to `gpt-3.5-turbo-1106`, change to any OpenAI model you have access to
+- **OpenAI API Key** — stored encoded on disk, never in plain text
+- **Model** — defaults to `gpt-4o-mini`, change to any OpenAI chat model you have access to
+- **Max Retries** — how many times Correkt will retry a failed validation before surfacing the result (default: 3, max: 10)
