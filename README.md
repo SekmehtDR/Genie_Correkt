@@ -1,4 +1,4 @@
-# Correkt — RP Text Assistant for DragonRealms
+# Correkt - RP Text Assistant for DragonRealms
 
 **Version**: v1.2b
 **Author**: Sekmeht Usho
