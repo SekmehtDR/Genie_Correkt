@@ -94,6 +94,7 @@ Status messages from command line actions are echoed to the game window.
 
 ## Installation
 
+0. Download [Correkt.dll](test)
 1. Copy `Correkt.dll` to your Genie `Plugins` folder
 2. Launch Genie and load the plugin
 3. Click **Settings** and enter your OpenAI API key
