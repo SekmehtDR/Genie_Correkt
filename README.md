@@ -1,11 +1,12 @@
-# Correkt - RP Text Assistant for DragonRealms
+# Correkt — RP Text Assistant for DragonRealms
 
-**Version**: v1.2b <br>
-**Author**: Sekmeht Usho <br>
-**Release**: Coming Simusoon <br>
+| | |
+|---|---|
+| **Version** | v1.2b |
+| **Author** | Sekmeht Usho |
+| **Release** | Coming Soon |
 
-Correkt is a Genie plugin that helps DragonRealms players write immersive, in-character roleplay using AI, so anyone can find their voice in Elanthia regardless of writing ability.
-
+Correkt helps DragonRealms players write immersive, in-character roleplay using AI, so anyone can find their voice in Elanthia regardless of writing ability.
 <kbd><a href="screenshots/correkt-ui1.png"><img src="screenshots/correkt-ui1.png" width="350"/></a></kbd>
 <kbd><a href="screenshots/correkt-ui2.png"><img src="screenshots/correkt-ui2.png" width="350"/></a></kbd>
 <kbd><a href="screenshots/correkt-ui3.png"><img src="screenshots/correkt-ui3.png" width="350"/></a></kbd>
@@ -26,14 +27,14 @@ Correkt is built to change that. It takes what you mean to say and helps you say
 ## What It Does
 
 ### Rewriting & Tone
-- **Smart default** — no voice selected means spelling and grammar correction only, nothing else changed
+- **Smart default** — no voice selected means spelling, apostrophes, punctuation, and proper noun capitalization are corrected without changing any wording or phrasing
 - **Character Voice grid** — nine alignment-based voices (Lawful Good through Chaotic Evil) to shape your rewrite
 - **Custom Tone** — free-form tone, style, or persona that overrides the alignment grid
 - **Concise output** — rewrites stay close to the length of your original, no purple prose
 - **Inline directives** — wrap `[instructions]` in square brackets and the AI fills that spot on the fly
 - **AI validation** — every rewrite is checked for meaning; bad or off-topic outputs are retried automatically
 
-### Send as Options
+### Send Options
 | Mode | Behavior |
 |---|---|
 | **Say** | Optional target and emote fields |
