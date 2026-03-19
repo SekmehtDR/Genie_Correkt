@@ -97,9 +97,8 @@ Status messages from command line actions are echoed to the game window.
 1. Download https://github.com/SekmehtDR/Genie_Correkt/raw/main/Release/Correkt.dll
 2. Copy `Correkt.dll` to your Genie `Plugins` folder
 3. Launch Genie and load the plugin
-4. Click **Settings** and enter your OpenAI API key
-5. Type `/correkt` in the Genie command line to open the plugin
-6. Get your wordsmithing on
+4. Click **Settings** and enter your OpenAI API key, click Save
+5. Get your wordsmithing on
 
 ---
 
