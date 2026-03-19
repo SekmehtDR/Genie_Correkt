@@ -107,5 +107,5 @@ Status messages from command line actions are echoed to the game window.
 | Setting | Details |
 |---|---|
 | **OpenAI API Key** | Stored encoded on disk, never plain text |
-| **Model** | Defaults to `gpt-4o-mini`, supports any OpenAI chat model |
+| **Model** | Defaults to `gpt-4o-mini`, this is great and very cheap conversation model. Works with other available models.|
 | **Max Retries** | How many times to retry a failed validation (default: 3, max: 10) |
