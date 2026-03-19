@@ -1,8 +1,8 @@
 # Correkt — RP Text Assistant for DragonRealms
 
- **Version**  v1.2b <br>
+ **Current Version**  v1.2b <br>
  **Author**  Sekmeht <br>
- **Release**  Coming Simusoon  <br>
+ **Released**  3/19/2026  <br>
 
 Correkt helps DragonRealms players write immersive, in-character roleplay using AI, so anyone can find their voice in Elanthia regardless of writing ability.
 
@@ -94,7 +94,7 @@ Status messages from command line actions are echoed to the game window.
 
 ## Installation
 
-1. Download https://github.com/LaegotKit/Genie_Correkt/raw/main/Release/Correkt.dll
+1. Download https://github.com/SekmehtDR/Genie_Correkt/raw/main/Release/Correkt.dll
 2. Copy `Correkt.dll` to your Genie `Plugins` folder
 3. Launch Genie and load the plugin
 4. Click **Settings** and enter your OpenAI API key
